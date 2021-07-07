@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..css/estilo.css"> <!--Caminho para pasta externa com estilos CSS-->
+    <title>Verificador de idade</title> <!--Titulo-->
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1> <!--Titulo do cabeçalhio-->
+    </header>
+    <section> <!--Seção-->
+         <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0"> <!-- Caixa de texto numerica para ano nascimento-->
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radiosex" id="mas" checked> <!--Caixa de seleção radio para masculino, com o "checked" ela já vai automaticamente marcada-->
+                <label for="masc">Masculino</label> <!--Opção que vai aparecer na primeira caixa radio-->
+                <input type="radio" name="daiosex" id="fem"><!--Caixa de seleção radio para feminino-->
+                <label for="fem">Feminino</label> <!--Opção que vai aparecer na segunda caixa radio-->
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verrificar()"> <!--Botao para calcular idade. "onclick='vericicador'" é a função em JS que será chamada ao clicar neste botão-->
+            </p>
+         </div>
+         <div id="res">
+             Preencha os dados acima para ver o resultado!
+         </div>
+    </section>
+    <footer> <!--Roda pé-->
+         <p>&copy;Desenvolvido por Isaias Santana Dos Santos.</p>
+    </footer>
+    <script src="..javascript/script.js"></script> <!--Caminho para pasta externa com interações JavaScript-->
+</body>
+</html>

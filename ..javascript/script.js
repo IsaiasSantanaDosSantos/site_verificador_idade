@@ -1,0 +1,1 @@
+alert('Olá!') // Abri janela com a mensagem entre os parenteses antes de carregar totalmente o site
