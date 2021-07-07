@@ -13,7 +13,7 @@ section { /*Seção*/
     background-color: white; /*Cor do fundo*/
     border-radius: 10px; /*Arrendar bordas*/
     padding: 15px; /*Margens interna*/
-    width: 38.7%; /*Largura da caixa (eu coloquei em "%" para se ajustar ao tamanho da tela conforme ela se mudar*/
+    width: 350px; /*Largura da caixa (eu coloquei em "%" para se ajustar ao tamanho da tela conforme ela se mudar*/
     margin: auto; /*Margens externas centralizadas/automatica*/
     box-shadow: 3px 3px 10px rgb(0, 0, 0, 363); /*Sombra (bem discreta)*/
 }
