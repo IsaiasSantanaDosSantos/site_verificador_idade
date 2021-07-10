@@ -1,11 +1,14 @@
 
 body {
-    background-color: rgb(70, 142, 236); /*Cor do fundo*/
+    background-image: url(../img/pessoas.jpg); /*Fundo*/
     font: normal 16px Arial; /*Tipo e tamanho da fonte*/
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
 }
 
 header { /*Cabeçalhio*/
-     color: white; /*Cor de fundo*/
+     color: black; /*Cor de fundo*/
      text-align: center ; /* Texto centralizado*/
 }
 
@@ -19,7 +22,7 @@ section { /*Seção*/
 }
 
 footer { /*Roda pé*/
-    color: white; /*Cor da fonte*/
+    color: black; /*Cor da fonte*/
     text-align: center ; /*Texto centralizado*/
     font-style: italic; /*Estilo da fonte*/
 }
